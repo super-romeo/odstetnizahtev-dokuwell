@@ -15,6 +15,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="Za agencije za naknadu štete i advokate: medicinska dokumentacija sređena, obračun nematerijalne i materijalne štete i gotov odštetni zahtev.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -73,38 +77,68 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Zahtev za naknadu</a></div>
-  <nav class="top"><a href="#sta" data-ev="click_nav_sta">Šta dobijate</a><a href="price.html" data-ev="click_nav_cena">Cena</a><a href="#primer" data-ev="click_nav_primer">Primer</a><a href="#start" data-ev="click_nav_start">Početak</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Zahtev za naknadu</a>
+  <nav><a href="#sta" data-ev="click_nav_sta">Šta dobijate</a><a href="price.html" data-ev="click_nav_cena">Cena</a><a href="#primer" data-ev="click_nav_primer">Primer</a><a href="#start" data-ev="click_nav_start">Početak</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Gotov odštetni zahtev osiguravaču za svakog povređenog — bez ručnog sastavljanja</h1>
-    <p class="sub">Za agencije za naknadu štete i advokatske kancelarije sa desetinama predmeta povređenih u saobraćajnim nezgodama: medicinska dokumentacija se sređuje po predmetu, šteta se obračunava po vrstama, a odštetni zahtev osiguravaču krivca dobijate sa spiskom priloga i rokom odgovora.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">Ovo mi treba</a>
-    <p class="cta-note">Rani pristup · Na ovoj stranici još se ne prima plaćanje</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> Za agencije za naknadu štete</p>
+      <h1 class="rise" style="--i:1" data-len="long">Gotov odštetni zahtev osiguravaču za svakog povređenog&nbsp;<span class="soft">— bez ručnog sastavljanja</span></h1>
+      <p class="rise" style="--i:2">Za agencije za naknadu štete i advokatske kancelarije sa desetinama predmeta povređenih u saobraćajnim nezgodama: medicinska dokumentacija se sređuje po predmetu, šteta se obračunava po vrstama, a odštetni zahtev osiguravaču krivca dobijate sa spiskom priloga i rokom odgovora.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">Ovo mi treba</a>
+      <p class="meta rise" style="--i:4">Rani pristup · Na ovoj stranici još se ne prima plaćanje</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="155" font-size="40" font-weight="600" fill="#0a1524">Odštetni zahtev</text><line x1="120" y1="200" x2="1080" y2="200" stroke="#dde2ea" stroke-width="3" /><rect x="120" y="250" width="44" height="44" rx="8" fill="#12397a" /><text x="190" y="282" font-size="32" fill="#0a1524">Obračun štete</text><rect x="120" y="370" width="44" height="44" rx="8" fill="#dfe8f7" /><text x="190" y="402" font-size="32" fill="#0a1524">Gotov zahtev</text><rect x="120" y="490" width="44" height="44" rx="8" fill="#dfe8f7" /><text x="190" y="522" font-size="32" fill="#0a1524">Rokovi osiguravača</text><rect x="700" y="250" width="360" height="400" rx="20" fill="#dfe8f7" /><text x="730" y="320" font-size="34" font-weight="600" fill="#0a1524">priloga</text><rect x="730" y="370" width="280" height="28" rx="8" fill="#ffffff" /><rect x="730" y="430" width="200" height="28" rx="8" fill="#b9c3d2" /><rect x="730" y="490" width="300" height="28" rx="8" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="730" y="550" width="160" height="28" rx="8" fill="#dde2ea" /></svg></figure>
+    <dl class="facts">
+      <div><dt>Za</dt><dd>Agencije za naknadu štete</dd></div>
+      <div><dt>Zahtev</dt><dd>Odštetni zahtev</dd></div>
+      <div><dt>Kako</dt><dd>Sređuje po predmetu</dd></div>
+      <div><dt>Pristup</dt><dd>Rani pristup</dd></div>
+    </dl>
+  </section>
 
   <section id="sta" data-view="features_view">
-    <h2>Šta dobijate</h2>
-    <div class="grid">
-      <div class="card"><b>Medicinska dokumentacija</b><span>Izveštaji, otpusne liste i nalazi sređeni po predmetu i datumu.</span><br><a class="btn" href="price.html" data-ev="feature_dokumentacija">Ovo mi treba</a></div>
-      <div class="card"><b>Obračun štete</b><span>Nematerijalna šteta po vrstama — fizički bol, strah, umanjenje životne aktivnosti — i materijalna: lečenje i izgubljena zarada.</span><br><a class="btn" href="price.html" data-ev="feature_obracun">Ovo mi treba</a></div>
-      <div class="card"><b>Gotov zahtev</b><span>Odštetni zahtev osiguravaču krivca sa spiskom priloga, spreman za proveru i potpis.</span><br><a class="btn" href="price.html" data-ev="feature_zahtev">Ovo mi treba</a></div>
-      <div class="card"><b>Rokovi osiguravača</b><span>Podsetnik kada ističe rok za odgovor osiguravača na svaki zahtev.</span><br><a class="btn" href="price.html" data-ev="feature_rokovi">Ovo mi treba</a></div>
+    <div class="stack"><h2>Šta dobijate</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="60" y="50" width="680" height="500" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="100" y="130" font-size="34" font-weight="600" fill="#0a1524">Medicinska dokumentacija</text><text x="100" y="185" font-size="30" fill="#566174">po predmetu i datumu</text><rect x="100" y="250" width="340" height="22" rx="8" fill="#dde2ea" /><rect x="100" y="300" width="260" height="22" rx="8" fill="#b9c3d2" /><rect x="100" y="350" width="300" height="22" rx="8" fill="#dde2ea" /><rect x="100" y="400" width="200" height="22" rx="8" fill="#dfe8f7" /><circle cx="560" cy="400" r="52" fill="#dfe8f7" /><polyline points="536,400 552,418 588,376" fill="none" stroke="#12397a" stroke-width="6" /></svg></div>
+        <h3>Medicinska dokumentacija</h3><p>Izveštaji, otpusne liste i nalazi sređeni po predmetu i datumu.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_dokumentacija">Ovo mi treba</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="60" y="50" width="680" height="500" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="100" y="130" font-size="34" font-weight="600" fill="#0a1524">Obračun štete</text><text x="100" y="185" font-size="30" fill="#566174">fizički bol</text><rect x="100" y="250" width="48" height="48" rx="8" fill="#dfe8f7" /><rect x="170" y="262" width="340" height="24" rx="8" fill="#dde2ea" /><polyline points="112,276 122,286 138,266" fill="none" stroke="#12397a" stroke-width="4" /><rect x="100" y="340" width="48" height="48" rx="8" fill="#dfe8f7" /><rect x="170" y="352" width="270" height="24" rx="8" fill="#dde2ea" /><polyline points="112,366 122,376 138,356" fill="none" stroke="#12397a" stroke-width="4" /><rect x="100" y="430" width="48" height="48" rx="8" fill="#dfe8f7" /><rect x="170" y="442" width="200" height="24" rx="8" fill="#dde2ea" /></svg></div>
+        <h3>Obračun štete</h3><p>Nematerijalna šteta po vrstama — fizički bol, strah, umanjenje životne aktivnosti — i materijalna: lečenje i izgubljena zarada.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_obracun">Ovo mi treba</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><text x="80" y="110" font-size="34" font-weight="600" fill="#0a1524">Gotov zahtev</text><text x="80" y="165" font-size="30" fill="#566174">spiskom priloga</text><rect x="70" y="220" width="240" height="300" rx="16" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="490" y="220" width="240" height="300" rx="16" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="96" y="260" width="180" height="20" rx="8" fill="#dde2ea" /><rect x="96" y="300" width="140" height="20" rx="8" fill="#b9c3d2" /><rect x="96" y="340" width="160" height="20" rx="8" fill="#dfe8f7" /><rect x="516" y="260" width="170" height="20" rx="8" fill="#dde2ea" /><rect x="516" y="300" width="120" height="20" rx="8" fill="#12397a" /><rect x="516" y="340" width="150" height="20" rx="8" fill="#b9c3d2" /><line x1="330" y1="370" x2="460" y2="370" stroke="#12397a" stroke-width="6" /><polygon points="460,358 488,370 460,382" fill="#12397a" /></svg></div>
+        <h3>Gotov zahtev</h3><p>Odštetni zahtev osiguravaču krivca sa spiskom priloga, spreman za proveru i potpis.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_zahtev">Ovo mi treba</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="60" y="50" width="680" height="500" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="100" y="130" font-size="34" font-weight="600" fill="#0a1524">Rokovi osiguravača</text><text x="100" y="185" font-size="30" fill="#566174">rok za odgovor</text><rect x="100" y="250" width="460" height="56" rx="28" fill="#dfe8f7" /><rect x="100" y="330" width="380" height="56" rx="28" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="100" y="410" width="300" height="56" rx="28" fill="#12397a" /><circle cx="130" cy="278" r="10" fill="#12397a" /></svg></div>
+        <h3>Rokovi osiguravača</h3><p>Podsetnik kada ističe rok za odgovor osiguravača na svaki zahtev.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_rokovi">Ovo mi treba</a>
+      </article>
     </div>
   </section>
 
-  <section id="primer" data-view="example_view">
-    <h2>Primer (izmišljeni podaci)</h2>
-    <p class="fine">Agencija sa 34 otvorena predmeta. Za novog povređenog stiže 11 dokumenata iz bolnice i doma zdravlja. Isti dan: dokumentacija je sređena, šteta obračunata po vrstama, a zahtev osiguravaču sa spiskom priloga čeka proveru advokata.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Izaberite paket</a>
+  <section id="primer" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Primer</h2>
+      <p>Agencija sa 34 otvorena predmeta. Za novog povređenog stiže 11 dokumenata iz bolnice i doma zdravlja. Isti dan: dokumentacija je sređena, šteta obračunata po vrstama, a zahtev osiguravaču sa spiskom priloga čeka proveru advokata.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Izaberite paket</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="200" y1="150" x2="1000" y2="150" stroke="#dde2ea" stroke-width="6" /><circle cx="240" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="600" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="960" cy="150" r="22" fill="#12397a" /><text x="240" y="220" font-size="30" font-weight="600" text-anchor="middle" fill="#0a1524">dokumenata</text><text x="600" y="220" font-size="30" font-weight="600" text-anchor="middle" fill="#0a1524">šteta obračunata</text><text x="960" y="220" font-size="30" font-weight="600" text-anchor="middle" fill="#0a1524">čeka proveru</text><rect x="120" y="300" width="960" height="400" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="170" y="380" font-size="36" font-weight="600" fill="#0a1524">spiskom priloga</text><rect x="170" y="450" width="64" height="64" rx="10" fill="#dfe8f7" /><rect x="270" y="450" width="64" height="64" rx="10" fill="#dfe8f7" /><rect x="370" y="450" width="64" height="64" rx="10" fill="#12397a" /><rect x="470" y="450" width="64" height="64" rx="10" fill="#dfe8f7" /><rect x="570" y="450" width="64" height="64" rx="10" fill="#dfe8f7" /><rect x="670" y="450" width="64" height="64" rx="10" fill="#dfe8f7" /><text x="170" y="600" font-size="32" fill="#566174">otvorena predmeta</text></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>Kako radi</h2>
-    <p>U Srbiji se u saobraćajnim nezgodama godišnje povredi više od osamnaest hiljada ljudi. Veliki deo tih predmeta vode agencije za naknadu štete i advokatske kancelarije: prikupljaju medicinsku dokumentaciju, procenjuju štetu i podnose odštetni zahtev osiguravaču krivca. Agencija obično radi za deo isplate, pa joj je važno da vodi što više predmeta istovremeno, a da svaki zahtev bude potpun.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>Kako radi</h2></div>
+    <div class="stack">
+      <p>U Srbiji se u saobraćajnim nezgodama godišnje povredi više od osamnaest hiljada ljudi. Veliki deo tih predmeta vode agencije za naknadu štete i advokatske kancelarije: prikupljaju medicinsku dokumentaciju, procenjuju štetu i podnose odštetni zahtev osiguravaču krivca. Agencija obično radi za deo isplate, pa joj je važno da vodi što više predmeta istovremeno, a da svaki zahtev bude potpun.</p>
     <p>Najviše vremena odlazi na sastavljanje. Za svakog povređenog treba pročitati izveštaje lekara, otpusne liste i nalaze, izdvojiti dijagnoze i trajanje lečenja, obračunati nematerijalnu štetu po vrstama — fizički bol, strah i umanjenje životne aktivnosti — i materijalnu štetu za troškove lečenja i izgubljenu zaradu. Zatim sve to treba pretočiti u zahtev sa spiskom priloga.</p>
     <p>Servis radi upravo taj deo. Učitate medicinsku dokumentaciju i zapisnik o nezgodi, a servis ih sređuje po datumu i vrsti, izdvaja dijagnoze, periode lečenja i procenat umanjenja životne aktivnosti ako ga je veštak utvrdio. Na osnovu toga priprema obračun po vrstama štete, sa iznosima koje vaša kancelarija koristi kao polaznu tačku prema sudskoj praksi.</p>
     <p>Iz obračuna nastaje odštetni zahtev osiguravaču krivca: podaci o nezgodi i povređenom, opis povreda i lečenja, obračun po vrstama štete i spisak priloženih dokumenata. Advokat ili saradnik proverava zahtev, menja šta smatra potrebnim i potpisuje ga. Servis ne šalje ništa umesto vas i ne daje pravne savete.</p>
@@ -112,31 +146,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>Za svaki predmet vidi se ceo tok: kada je povređeni došao, koji su dokumenti stigli, kada je zahtev podnet, šta je osiguravač odgovorio i koliko je ponudio. Rukovodilac agencije u jednom pregledu vidi opterećenje saradnika i predmete koji stoje predugo. Na kraju meseca lako je videti koliko je zahteva podneto, koliko je rešeno mirnim putem i koliko je prešlo u sudski postupak.</p>
     <p>Posle podnošenja servis pamti datum i rok za odgovor osiguravača. Kada se rok približi, dobijate podsetnik, a u pregledu svih predmeta vidite koji zahtevi čekaju odgovor, gde je osiguravač poslao ponudu i gde treba nastaviti postupak. Tako ni jedan predmet ne ostane zaboravljen u fascikli.</p>
     <p>Servis je namenjen agencijama za naknadu štete i advokatskim kancelarijama koje vode više predmeta mesečno. Dokumenti ostaju u vašem nalogu i koriste se samo za vaše predmete. Servis je u pripremi: proveravamo da li je kancelarijama potreban, pre nego što ga napravimo.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Pitanja i odgovori</h2>
-    <h3>Da li servis podnosi zahtev umesto nas?</h3>
-    <p>Ne. Pripremate zahtev u servisu, a proverava ga, potpisuje i podnosi vaša kancelarija.</p>
-    <h3>Odakle iznosi u obračunu?</h3>
-    <p>Iz podešavanja vaše kancelarije prema sudskoj praksi koju koristite; servis ih primenjuje na podatke iz dokumentacije.</p>
-    <h3>Koje dokumente mogu da učitam?</h3>
-    <p>Izveštaje lekara, otpusne liste, nalaze, račune za lečenje i zapisnik o nezgodi, kao PDF ili fotografiju.</p>
-    <h3>Da li je to pravni savet?</h3>
-    <p>Ne. Servis sređuje dokumentaciju i priprema nacrt zahteva; odluke donosi advokat.</p>
-    <h3>Mogu li već da ga koristim?</h3>
-    <p>Još ne. Servis je u pripremi i proveravamo da li je kancelarijama potreban.</p>
+    <div class="stack"><h2>Pitanja i odgovori</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Da li servis podnosi zahtev umesto nas?</h3><p>Ne. Pripremate zahtev u servisu, a proverava ga, potpisuje i podnosi vaša kancelarija.</p></div>
+      <div class="split flip"><h3>Odakle iznosi u obračunu?</h3><p>Iz podešavanja vaše kancelarije prema sudskoj praksi koju koristite; servis ih primenjuje na podatke iz dokumentacije.</p></div>
+      <div class="split flip"><h3>Koje dokumente mogu da učitam?</h3><p>Izveštaje lekara, otpusne liste, nalaze, račune za lečenje i zapisnik o nezgodi, kao PDF ili fotografiju.</p></div>
+      <div class="split flip"><h3>Da li je to pravni savet?</h3><p>Ne. Servis sređuje dokumentaciju i priprema nacrt zahteva; odluke donosi advokat.</p></div>
+      <div class="split flip"><h3>Mogu li već da ga koristim?</h3><p>Još ne. Servis je u pripremi i proveravamo da li je kancelarijama potreban.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Dodajte prvi predmet</h2>
-    <p><label>Predmeta naknade štete mesečno<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— izaberite —</option><option>Do 5</option><option>5–20</option><option>20–50</option><option>Više od 50</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Dodaj predmet</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Dodajte prvi predmet</h2>
+    </div>
+    <div class="tile stack">
+      <label>Predmeta naknade štete mesečno<select data-ev-focus="form_start"><option value="">— izaberite —</option><option>Do 5</option><option>5–20</option><option>20–50</option><option>Više od 50</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Dodaj predmet</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Zahtev za naknadu</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Politika privatnosti</a></p>
-  <p class="muted">Priprema dokumentacije i nacrta zahteva za vašu kancelariju. Nije pravni savet; nije povezano ni sa jednim osiguravačem ni sudom.</p>
+  <p>Priprema dokumentacije i nacrta zahteva za vašu kancelariju. Nije pravni savet; nije povezano ni sa jednim osiguravačem ni sudom.</p>
 </div></footer>
 
 </body>
